@@ -28,7 +28,7 @@ https://templatemo.com/tm-516-known
 
   h1 {
     color: #252525;
-    font-size: 3em;
+    font-size: 2.5em;
     line-height: normal;
   }
 
@@ -185,7 +185,7 @@ https://templatemo.com/tm-516-known
   -----------------------------------------*/
 
   .section-btn {
-    background: transparent;
+    background-color: rgba(255,255,255,0.3);
     border-radius: 50px;
     border: 1px solid #ffffff;
     color: #ffffff;
@@ -230,7 +230,7 @@ https://templatemo.com/tm-516-known
     content: '';
     box-sizing: border-box;
     position: absolute;
-    top: 50%;
+    top: 0%;
     left: 50%;
     width: 45px;
     height: 45px;
@@ -348,10 +348,10 @@ https://templatemo.com/tm-516-known
 
   #home h3 {
     color: #f9f9f9;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 300;
     margin: 0;
-    padding: 5px 0 40px 0;
+    padding: 5px 0 20px 0;
   }
 
   @media (min-width: 768px) {
@@ -375,7 +375,7 @@ https://templatemo.com/tm-516-known
     background-repeat: no-repeat;
     background-attachment: local;
     background-size: cover;
-    height: 650px;
+    height: 400px;
   }
 
   .caption h3 a { color: #FFF; }
@@ -383,16 +383,18 @@ https://templatemo.com/tm-516-known
 
   .home-slider .item-first {
     background-image: url(../images/slider-image1.jpg);
-	background-position: center;
-  }
+	  background-position: center;
+}
 
   .home-slider .item-second {
     background-image: url(../images/slider-image2.jpg);
-  }
+    background-position: center;
+}
 
   .home-slider .item-third {
     background-image: url(../images/slider-image3.jpg);
-  }
+    background-position: center;
+}
 
 
 
@@ -547,6 +549,7 @@ https://templatemo.com/tm-516-known
 
   .courses-detail {
     padding: 25px 25px 15px 25px;
+    height: 175px;
   }
 
   .courses-detail h3 {
@@ -740,7 +743,7 @@ https://templatemo.com/tm-516-known
 
   footer {
     background: #252020;
-    padding: 120px 0;
+    padding: 50px 0;
   }
 
   footer .section-title {
@@ -765,7 +768,7 @@ https://templatemo.com/tm-516-known
   }
 
   footer .social-icon {
-    margin-top: 25px;
+    margin-top: 10px;
   }
 
   .footer-info {
@@ -847,9 +850,9 @@ https://templatemo.com/tm-516-known
     border-radius: 100px;
     color: #29ca8e;
     font-size: 15px;
-    width: 35px;
-    height: 35px;
-    line-height: 35px;
+    width: 50px;
+    height: 50px;
+    line-height: 5px;
     text-decoration: none;
     text-align: center;
     transition: all 0.4s ease-in-out;
