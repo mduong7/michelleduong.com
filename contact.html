@@ -79,13 +79,13 @@
                               </div>
 
                               <div class="col-md-12 col-sm-12">
-                                  <form action="contact-form-handler.php" method="post" enctype="text/plain">
-                                  <input type="text" class="form-control" placeholder="Enter full name" name="name" required="">
-
-                                  <input type="email" class="form-control" placeholder="Enter email address" name="email" required="">
-
-                                  <textarea class="form-control" rows="6" placeholder="Message" name="message" required=""></textarea>
+                                  <form name="gform" id="gform" enctype="text/plain" action: "https://docs.google.com/forms/d/e/1FAIpQLScZebcXvzyt9X0AIVHUenZvIlC2oSYMoY-UOjjRhVe5wcDrKw/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+                                  <input type="text" class="form-control" placeholder="Full name" name=".2005620554" id="entry.2005620554" required="">
+                                  <input type="email" class="form-control" placeholder="Email address" name=".1045781291" id="entry.1045781291" required="">
+                                  <textarea class="form-control" rows="6" placeholder="Message" name=".839337160" id="entry.839337160" required=""></textarea>
                                 </form>
+                                <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+
                               </div>
 
                               <div class="col-md-4 col-sm-12">
@@ -156,6 +156,14 @@
      <script src="js/owl.carousel.min.js"></script>
      <script src="js/smoothscroll.js"></script>
      <script src="js/custom.js"></script>
+     <script type="text/javascript">var submitted=false;</script>
+     <script type="text/javascript">
+        $('#gform').on('submit', function(e) {
+          $('#gform *').fadeOut(2000);
+          $('#gform').prepend('Your message has been submitted!');
+          });
+      </script>
+
 
 </body>
 </html>
