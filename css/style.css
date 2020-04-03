@@ -47,6 +47,9 @@
     line-height: 20px;
   }
 
+  p a {
+    color: #29ca8e;
+  }
 
 
   /*---------------------------------------
@@ -267,8 +270,9 @@
 
   .custom-navbar .navbar-brand {
     color: #454545;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: bold;
+    font-style: oblique;
     line-height: 40px;
   }
 
