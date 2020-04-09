@@ -96,7 +96,7 @@
 
   .section-title a {
     margin: 0;
-    color: #29ca8e;
+    color: #252525;
     font-size: 20px;
   }
 
@@ -509,6 +509,7 @@
 
   #courses .section-title {
     text-align: center;
+    font-size: 20px;
   }
 
   #courses .owl-theme .owl-nav {
@@ -567,6 +568,16 @@
     margin: 0 0 2px 0;
     font-size: 18px;
   }
+
+  #courses h2 {
+    color: #252525;
+    font-size: 20px;
+  }
+
+  #courses .section-title {
+    padding-bottom: 20px;
+  }
+
 
   /*
 
