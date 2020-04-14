@@ -203,6 +203,16 @@
     font-weight: bold;
   }
 
+  .section-btn  a {
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 50px;
+    border: 1px solid #29ca8e;
+    color: #ffffff;
+    font-size: inherit;
+    font-weight: normal;
+    padding: 15px 30px;
+    transition: 0.5s;
+  }
 
 
   /*---------------------------------------
